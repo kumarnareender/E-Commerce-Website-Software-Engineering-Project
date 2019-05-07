@@ -1,0 +1,18 @@
+body{
+	background-image: url(../img/Bg.jpg) ;
+	background-size: cover;
+	
+}
+.img{
+	margin-left: 39%;
+	margin-top: 22%;	
+}
+.btn{
+
+	margin-left: 44%;
+
+}
+.btn:hover{
+	color: red;
+	
+}

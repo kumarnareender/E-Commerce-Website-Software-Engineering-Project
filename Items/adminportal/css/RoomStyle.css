@@ -1,0 +1,191 @@
+body{
+
+ 
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+.NewFontTitle{
+  font-family: "Akronim";
+  color: black;
+  font-size: 2rem;
+
+}
+.newfont{
+  font-family: "Akronim";
+  color: black;
+  font-size: 20px;
+}
+
+.Setuser {
+              margin-top: 10px;
+}
+
+.Setuser h4 {
+font-size: 1.5em;
+color: darkorange;
+display: inline-block;
+box-sizing: border-box;
+border: 2px solid black;
+width: 70%;
+padding-top: 5px; 
+padding-left: 15px;
+border-radius: 20px;
+font-family: "Akronim";
+font-weight: bold;
+            }
+
+
+.btn-sytle{
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  font-size: 18px;
+  cursor: pointer;
+    letter-spacing:2px;
+  font-family: "Akronim"
+
+}
+
+
+.container{
+  width: 100%;
+ margin-top: 10%;
+ font-family: sans-serif;
+ letter-spacing: 1px;
+}
+
+.container h2{
+  background: #0062cc;
+  color: #fff;
+  width: 200px;
+  font-size: 24px;
+  padding: 5px;
+  height: 40px;
+}
+
+.row{
+  margin-top: 30px;
+}
+
+.container h2::after{
+  content: '';
+  border-top: 40px solid #0062cc;
+  border-right: 40px solid transparent;
+  position: relative;
+  left: 51px;
+  top: 35px;
+
+}
+
+.itemimage
+{
+  width: 100%;
+  height: 300px;
+}
+
+.product-bottom .fa{
+
+  color: #28a745;
+  font-size: 10px;
+
+}
+
+.product-bottom h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.product-bottom h5{
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.overlay{
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  margin-left: 0;
+ width: 70px; 
+}
+
+.product-top:hover .overlay{
+
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+
+.overlay .fa{
+
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  padding: 7px;
+  margin: 5%;
+  margin-bottom: 5%;
+
+}
+
+.overlay .btn-secondary
+{
+  background: transparent !important;
+  border: none !important;
+
+}
+
+.search_box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.input_box{
+  border: none;
+  outline: none;
+  background: none;
+  float: left;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.4s all;
+  line-height: 40px;
+  width: 0px;
+
+}
+
+
+.btn23{
+  color: #1abc9c;
+  float: right;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.search_box: hover .input_box{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search_box: hover .btn23{
+  background-color: #fff;
+}
