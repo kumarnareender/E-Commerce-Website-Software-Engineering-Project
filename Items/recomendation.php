@@ -66,16 +66,6 @@ $sql = mysqli_query($conn,"SELECT product_id from rate order by rate asc") or di
                                 <a class="nav-link " href="#">Contact</a>
                               </li>
 
-                              <li class="nav-item active ">
-                                  <a class="nav-link  font-weight-bold  newfont" style="font-size: 20px;"
-                                   href="adminportal\resources\templates\back\complaint.php">Complaint</a>
-                              </li>
-                              </li>
-
-                              <li class="nav-item font-weight-bold active  newfont" style="font-size: 20px;"> 
-                                <a class="nav-link " href="adminportal\resources\templates\back\viewcart.php">Cart</a>
-                              </li>
-
                           </ul>
                           <ul>
                            <form action="#" method="post">

@@ -64,7 +64,7 @@
 
               <?php 
 
-                if($_SERVER['REQUEST_URI'] == "/adminportal/admin/" || $_SERVER['REQUEST_URI'] == "/adminportal/admin/index.php")  {
+                if($_SERVER['REQUEST_URI'] == "/project/items/adminportal/" || $_SERVER['REQUEST_URI'] == "/project/items/adminportal/index.php")  {
 
 
                     include(TEMPLATE_BACK . "/admin_content.php");
